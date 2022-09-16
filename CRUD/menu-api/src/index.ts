@@ -33,7 +33,7 @@ app.use('/api/menu/items', itemsRouter)
 
 
 app.use(errorHandler)
-app.use(notFoundHandler)
+app.use(notFoundHandler) // catch all for all other routes
 /**
  * Server Activation
  */
